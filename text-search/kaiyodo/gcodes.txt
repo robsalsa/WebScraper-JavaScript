@@ -967,7 +967,7 @@ Brand	Kaiyodo
 Product Line	Revoltech Amazing Yamaguchi
 Series Title	SupermanDC Comics
 Sculptor	Katsuhisa Yamaguchi 
-Name    Superman
+Character Name    Superman
 The maximum purchase quantity for this item is 3 per account/shipping address.
 Specifications	Size: Approx. H175mm
 Material: Main Part: PVC, ABS / Joint: ABS, POM
