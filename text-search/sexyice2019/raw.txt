@@ -3,7 +3,7 @@ About this item
 Release Date	Jan-2025	List Price	13,640 JPY
 Shop Code	FIGURE-171374	JAN code	6832037136650
 Brand	SEXYiCE
-Name    Mantis
+Character Name    Mantis
 The maximum purchase quantity for this item is 2 per account/shipping address.
 Specifications	Scale: 1/12
 Size: Approx. H17.5cm
@@ -16,7 +16,7 @@ Release Date	Dec-2025	List Price	15,620 JPY
 Shop Code	FIGURE-189136	JAN code	0683203714648
 Brand	SEXYiCE
 Sculptor	Oyatsu 
-Name    Smasher
+Character Name    Smasher
 The maximum purchase quantity for this item is 3 per account/shipping address.
 Specifications	Pre-painted Complete Action Figure
 Size: Approx. H170mm
@@ -53,7 +53,7 @@ Release Date	Nov-2025	List Price	14,960 JPY
 Shop Code	FIGURE-186932	JAN code	0683203714631
 Brand	SEXYiCE
 Sculptor	Oyatsu 
-Name    Manticora
+Character Name    Manticora
 The maximum purchase quantity for this item is 2 per account/shipping address.
 Specifications	Pre-painted Complete Action Figure
 Size: Approx. H200mm
@@ -84,7 +84,7 @@ Release Date	May-2026	List Price	15,950 JPY
 Shop Code	FIGURE-198155	JAN code	0683203715041
 Brand	SEXYiCE
 Sculptor	Oyatsu 
-Name    Smasher Anaconda Strike Ver.
+Character Name    Smasher Anaconda Strike Ver.
 The maximum purchase quantity for this item is 3 per account/shipping address.
 Specifications	Pre-painted Complete Action Figure
 Size: Approx. H170mm
@@ -120,7 +120,7 @@ Release Date	Jun-2026	List Price	6,600 JPY
 Shop Code	FIGURE-198528	JAN code	0683203714983
 Brand	SEXYiCE
 Sculptor	Oyatsu 
-Name    Zatard Hound
+Character Name    Zatard Hound
 The maximum purchase quantity for this item is 6 per account/shipping address.
 Specifications	Pre-painted Complete Action Figure
 Size: Approx. L110mm (tail excluded)
@@ -150,5 +150,5 @@ Release Date	UNKNOWN	List Price	0,000 JPY
 Shop Code	FIGURE-000000	JAN code	0000000000000
 Brand	SEXYiCE
 Sculptor	unknown 
-Name    Eliminator
+Character Name    Eliminator
 -
