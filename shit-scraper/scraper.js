@@ -2,9 +2,15 @@ const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 const fs = require('fs');
 const path = require('path');
 
-// Configuration
-const INPUT_FILE = path.join(__dirname, '..', 'text-search', 'kaiyodo', 'gcodes.txt');
-const OUTPUT_FILE = './output/kaiyodo_products.csv';
+const INPUT_FILE = path.join(__dirname, '..', 'text-search', 'kaiyodo', 'raw.txt');
+const INPUT_FILE2 = path.join(__dirname, '..', 'text-search', 'sexyice2019', 'raw.txt');
+const INPUT_FILE3 = path.join(__dirname, '..', 'text-search', 'mafex', 'raw.txt');
+
+const OUTPUT_FILE = 'out_file/kaiyodo/kaiyodo_AY.csv';      //kaiyodo file
+const OUTPUT_FILE_2 ='out_file/sexyice/sexyice.csv';    //sexyice file
+const OUTPUT_FILE_3 = 'out_file/mafex/mafex.csv'        //mafex file
+
+const JPY_TO_USD = 0.0069; // Conversion rate from JYP to USD (Date for this conversion: 3/25/2026)
 
 
 function readTextFile(filePath) {
@@ -17,65 +23,42 @@ function readTextFile(filePath) {
 }
 
 function normalizeContent(content) {
-    // RemoveBOM (Byte Order Mark) if present
-    content = content.replace(/^\uFEFF/, '');
-    
-    // Normalize line endings to \n
-    content = content.replace(/\r\n/g, '\n').replace(/\r/g, '\n');
-    
-    // Remove zero-width spaces and other invisible characters (but NOT tabs!)
-    content = content.replace(/[\u200B-\u200D\uFEFF]/g, '');
-    
-    // DO NOT remove dash separators - they mark product boundaries!
-    // DO NOT normalize spaces or tabs - they are part of the data structure
-    
+    content = content.replace(/^\uFEFF/, '');   //kill Byte Order Marks (something inside of txt files)
+    content = content.replace(/\r\n/g, '\n').replace(/\r/g, '\n');  //kill \n and empty lines
+    content = content.replace(/[\u200B-\u200D\uFEFF]/g, '');    //kill any invisable characters
+
     return content;
 }
 
 function parseProducts(content) {
     const products = [];
-    
-    // Remove any comment lines at the start
+
     const lines = content.split('\n');
-    const cleanLines = lines.filter(line => !line.trim().startsWith('#'));
+    const cleanLines = lines.filter(line => !line.trim().startsWith('#'));  //kill lines starting with # (Example: #Page x of y)
     content = cleanLines.join('\n');
-    
-    // Split by lines containing only a dash (product separator)
-    const sections = content.split(/\n-\n/);
-    
-    // Filter out empty sections
+
+    const sections = content.split(/\n-\n/);    //seperate entries by dashes ('-')
     const validSections = sections.filter(s => s.trim().length > 0);
-    
-    console.log(`Found ${validSections.length} product sections`);
-    
+
+    console.log(`Found ${validSections.length} entry sections`);  //kill empty lines
+
     sections.forEach((section, index) => {
-        // Must contain both gcode and "About this item" to be valid
-        const gcodeMatch = section.match(/^FIGURE-\d+/m);
-        
-        // More flexible "About this item" detection - check for variations
-        const aboutPattern = /about\s+this\s+item/i;
+        const gcodeMatch = section.match(/^FIGURE-\d+/mi);  //find the figure-xxxxx code from AmiAmi
+        const aboutPattern = /about\s+this\s+item/i;    //find section "About this item" AmiAmi has for all listings
         const hasAboutSection = aboutPattern.test(section);
-        
-        // console.log(`\nSection ${index}:`);
-        // console.log(`  First 100 chars: ${section.substring(0, 100).replace(/\n/g, '\\n')}`);
-        // console.log(`  Has gcode: ${!!gcodeMatch}, gcode: ${gcodeMatch ? gcodeMatch[0] : 'none'}`);
-        // console.log(`  Has "About this item": ${hasAboutSection}`);
-        // console.log(`  Section length: ${section.length} chars`);
-        
-        // If no gcode, skip this section
+
         if (!gcodeMatch) {
-            console.log(`  Skipping: No gcode found`);
+            console.log(`  Skipping: No AmiAmi gcode found!!! Entry ${index - 1}`);
             return;
         }
-        
-        // If section is too short or has no brand info, skip
+
         if (section.length < 50) {
-            console.log(`  Skipping: Section too short`);
+            console.log(`  Skipping: This are missing!! Entry ${index - 1}`);
             return;
         }
-        
+
         const gcode = gcodeMatch[0].trim();
-        
+
         const product = {
             gcode: gcode,
             name: '',
@@ -86,74 +69,70 @@ function parseProducts(content) {
             sculptor: '',
             material: '',
             spec: '',
-            status: ''
+            status: '',
+            priceJPY: '',
+            priceUSD: ''
         };
-        
-        // Extract Release Date (tab-separated: "Release Date\tFeb-2023\tList Price...")
-        const releaseDateMatch = section.match(/Release Date\s+([^\t\n]+)/i);
+
+        const releaseDateMatch = section.match(/Release Date\s+([^\t\n]+)/i);   //find Release Date
         if (releaseDateMatch) product.releaseDate = releaseDateMatch[1].trim();
-        
-        // Extract Brand (line: "Brand\tKaiyodo")
-        const brandMatch = section.match(/Brand\s+(.+?)(?:\n|$)/i);
+
+        const brandMatch = section.match(/Brand\s+(.+?)(?:\n|$)/i);     //find Brand 
         if (brandMatch) product.brand = brandMatch[1].trim();
-        // console.log(`  Brand found: ${product.brand || 'none'}`);
-        
-        // Extract Product Line (may have no spaces between words)
-        const productLineMatch = section.match(/Product Line\s+(.+?)(?:\n|$)/i);
+
+        const productLineMatch = section.match(/Product Line\s+(.+?)(?:\n|$)/i);    //find Product Line
         if (productLineMatch) product.productLine = productLineMatch[1].trim();
-        
-        // Extract Series Title
-        const seriesTitleMatch = section.match(/Series Title\s+(.+?)(?:\n|$)/i);
+
+        const seriesTitleMatch = section.match(/Series Title\s+(.+?)(?:\n|$)/i);    //find Series
         if (seriesTitleMatch) product.seriesTitle = seriesTitleMatch[1].trim();
-        
-        // Extract Character Name (this becomes the product name)
-        const characterMatch = section.match(/Character Name\s+(.+?)(?:\n|Sculptor|$)/i);
+
+        const characterMatch = section.match(/Character Name\s+(.+?)(?:\n|Sculptor|$)/i); //find Character Name
         if (characterMatch) product.name = characterMatch[1].trim();
-        
-        // Extract Sculptor (format: "Sculptor\tKatsuhisa Yamaguchi")
-        const sculptorMatch = section.match(/Sculptor\s+(.+?)(?:\s*\n|$)/i);
+
+        const sculptorMatch = section.match(/Sculptor\s+(.+?)(?:\s*\n|$)/i);    //Find Sculptor
         if (sculptorMatch) product.sculptor = sculptorMatch[1].trim();
-        
-        // Extract full Specifications section (everything after "Specifications" until "[Set Contents]")
-        const specMatch = section.match(/Specifications\s+(.+?)(?=\[Set Contents\]|Details|Copyright|FIGURE-\d+|$)/is);
+
+        const priceMatch = section.match(/(?:List Price|Price)[:\s]+¥?([\d,]+)/i); //find price in JPY
+        if (priceMatch) {
+            const jpyPrice = parseInt(priceMatch[1].replace(/,/g, ''));
+            product.priceJPY = jpyPrice.toString();
+            product.priceUSD = (jpyPrice * JPY_TO_USD).toFixed(2);
+        }
+
+        const specMatch = section.match(/Specifications\s+(.+?)(?=\[Set Contents\]|Details|Copyright|FIGURE-\d+|$)/is); //find All info about specs
         if (specMatch) {
             product.spec = specMatch[1].trim();
-            
-            // Extract Material from within specifications
-            const materialMatch = product.spec.match(/Material:\s*(.+?)(?:\n|$)/i);
+
+            const materialMatch = product.spec.match(/Material:\s*(.+?)(?:\n|$)/i); //find materials listed. Example: PVC, Cloth, or whatever
             if (materialMatch) {
                 product.material = materialMatch[1].trim();
             }
         }
-        
-        // Status field not present in clean format
+
         product.status = '';
-        
         products.push(product);
-        // console.log(`  Product added: ${product.gcode}`);
     });
-    
-    console.log(`\nTotal products before filter: ${products.length}`);
+
+    console.log(`Total entries found before filtering out for new info: ${products.length}`);
     const filtered = products.filter(p => p.gcode && p.brand);
-    console.log(`Total products after filter: ${filtered.length}`);
-    
-    return filtered; // Only return valid products
+    console.log(`Total entries left after checking out for new info: ${filtered.length}`);
+
+    return filtered;
 }
 
-async function saveToCSV(products) {
+async function saveToCSV(products, outputFile) {
     if (products.length === 0) {
-        console.log('\n⚠ No products to save');
+        console.log('\n*!* No entries to saved *!*');
         return;
     }
 
-    // Create output directory if it doesn't exist
-    const outputDir = './output';
+    const outputDir = path.dirname(outputFile);
     if (!fs.existsSync(outputDir)) {
         fs.mkdirSync(outputDir, { recursive: true });
     }
 
     const csvWriter = createCsvWriter({
-        path: OUTPUT_FILE,
+        path: outputFile,
         header: [
             { id: 'gcode', title: 'gcode' },
             { id: 'name', title: 'name' },
@@ -164,69 +143,63 @@ async function saveToCSV(products) {
             { id: 'sculptor', title: 'sculptor' },
             { id: 'material', title: 'material' },
             { id: 'spec', title: 'spec' },
-            { id: 'status', title: 'status' }
+            { id: 'status', title: 'status' },
+            { id: 'priceJPY', title: 'price_jpy' },
+            { id: 'priceUSD', title: 'price_usd' }
         ]
     });
 
-    // Write ALL products at once
     await csvWriter.writeRecords(products);
-    console.log(`\n✓ CSV file saved: ${OUTPUT_FILE}`);
-    console.log(`✓ Total products written: ${products.length}`);
+    console.log(`CSV entries saved: ${outputFile}`);
+    console.log(`Total entries written: ${products.length}\n`);
+}
+
+async function processFile(inputFile, outputFile) {
+    // console.log(`\n=== Processing: ${inputFile} ===`);
+    
+    if (!fs.existsSync(inputFile)) {
+        console.log(`*!* File not found, skipping: ${inputFile} *!*`);
+        return;
+    }
+
+    const content = readTextFile(inputFile);
+    
+    if (!content) {
+        console.log('*!* File is empty or could not be read, skipping. *!*');
+        return;
+    }
+
+    console.log('File loaded');
+    
+    const normalizedContent = normalizeContent(content);
+    const products = parseProducts(normalizedContent);
+
+    if (products.length === 0) {
+        console.log('*!* No entries found in file. *!*');
+        return;
+    }
+
+    // console.log(`Found ${products.length} entries`);
+    await saveToCSV(products, outputFile);
 }
 
 
 (async () => {
     try {
-        // console.log('=== AmiAmi Text File Product Parser ===\n');
+        // Define all input/output file pairs
+        const filePairs = [
+            { input: INPUT_FILE, output: OUTPUT_FILE },
+            { input: INPUT_FILE2, output: OUTPUT_FILE_2 },
+            {input: INPUT_FILE3, output:OUTPUT_FILE_3}
+        ];
 
-        // Step 1: Read text file
-        console.log(`Reading data from: ${INPUT_FILE}\n`);
         
-        if (!fs.existsSync(INPUT_FILE)) {
-            throw new Error(`File not found: ${INPUT_FILE}\n\nPlease create the file and paste product information from AmiAmi.`);
+        // Process each file pair
+        for (const pair of filePairs) {
+            await processFile(pair.input, pair.output);
         }
 
-        const content = readTextFile(INPUT_FILE);
-
-        if (!content) {
-            throw new Error('File is empty or could not be read.');
-        }
-
-        console.log('✓ File loaded successfully\n');
-        
-        // Normalize content to handle encoding issues, spaces, etc.
-        const normalizedContent = normalizeContent(content);
-        console.log('✓ Content normalized\n');
-        
-        console.log('Parsing product information...\n');
-
-        // Step 2: Parse products from content
-        const products = parseProducts(normalizedContent);
-
-        if (products.length === 0) {
-            throw new Error('No products found in file. Please check the format.');
-        }
-
-        console.log(`✓ Found ${products.length} product(s)\n`);
-        
-        // Display extracted products
-        // console.log('=== Extracted Products ===');
-        // products.forEach((product, index) => {
-        //     console.log(`\n${index + 1}. ${product.gcode}`);
-        //     console.log(`   Name: ${product.name || '(not found)'}`);
-        //     console.log(`   Brand: ${product.brand}`);
-        //     console.log(`   Release: ${product.releaseDate}`);
-        //     console.log(`   Status: ${product.status}`);
-        // });
-
-        // Step 3: Save ALL products to a SINGLE CSV file
-        console.log('\n\nWriting to CSV...');
-        await saveToCSV(products);
-
-        // // Display summary
-        // console.log('\n=== Summary ===');
-        // console.log(`Total products parsed: ${products.length}`);
-        // console.log('\n✓ Parsing completed successfully!');
+        console.log('\n Done!');
 
     } catch (error) {
         console.error('\n❌ Error:', error.message);
@@ -234,4 +207,3 @@ async function saveToCSV(products) {
     }
 })();
 
-// Stopped at page 5 from 7 (Note i started from 7 and should end at page 1)
