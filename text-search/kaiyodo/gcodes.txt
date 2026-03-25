@@ -173,6 +173,7 @@ Brand	Kaiyodo
 Product Line	Revoltech Amazing Yamaguchi
 Series Title	DEADPOOL Marvel Comics
 Character Name	Deadpool No.001
+Sculptor    UNKNOWN
 The maximum purchase quantity for this item is 3 per account/shipping address.
 Specifications	Size: Approx. H160mm
 Material: Main Part: PVC, ABS / Joint: Nylon, POM
@@ -391,7 +392,7 @@ FIGURE-121521
 About this item
 Release Date	Apr-2021	List Price	9,790 JPY
 Shop Code	FIGURE-121521	JAN code	4537807013279
-Brand	Takara Tomy
+Brand	Takara Tomy X Kaiyodo
 Product Line	Revoltech Amazing Yamaguchi
 Series Title	My Hero Academia (Boku no Hero Academia)
 Character Name	Katsuki Bakugo (Great Explosion Murder God Dynamight)
@@ -1306,7 +1307,7 @@ FIGURE-130539
 About this item
 Release Date	late May-2022	List Price	9,790 JPY
 Shop Code	FIGURE-130539	JAN code	4537807013347
-Brand	Takara Tomy
+Brand	Takara Tomy X Kaiyodo
 Product Line	Revoltech Amazing Yamaguchi
 Series Title	My Hero Academia (Boku no Hero Academia)
 Character Name	Shoto Todoroki(Shoto)
@@ -1396,7 +1397,7 @@ FIGURE-141191
 About this item
 Release Date	Feb-2023	List Price	14,300 JPY
 Shop Code	FIGURE-141191	JAN code	4537807013392
-Brand	Takara Tomy
+Brand	Takara Tomy X Kaiyodo
 Product Line	Revoltech Amazing Yamaguchi
 Series Title	My Hero Academia (Boku no Hero Academia)
 Character Name	Enji Todoroki(Endeavor)
@@ -1563,7 +1564,7 @@ FIGURE-142373
 About this item
 Release Date	Mar-2023	List Price	14,300 JPY
 Shop Code	FIGURE-142373	JAN code	4537807013415
-Brand	Takara Tomy
+Brand	Takara Tomy X Kaiyodo
 Product Line	Revoltech Amazing Yamaguchi
 Series Title	My Hero Academia (Boku no Hero Academia)
 Character Name	Hawks(Keigo Takami)
@@ -2527,7 +2528,7 @@ Release Date	Mar-2026	List Price	12,100 JPY
 Shop Code	FIGURE-180255	JAN code	4537807220806
 Brand	Kaiyodo
 Product Line	Revoltech Amazing Yamaguchi
-Series Title	Street Fighter 6"Street Fighter" Series
+Series Title	Street Fighter 6 "Street Fighter" Series
 Character Name	RyuLuke
 Sculptor	Katsuhisa Yamaguchi 
 The maximum purchase quantity for this item is 2 per account/shipping address.
@@ -2850,7 +2851,7 @@ Release Date	Mar-2026	List Price	12,100 JPY
 Shop Code	FIGURE-182369	JAN code	4537807220813
 Brand	Kaiyodo
 Product Line	Revoltech Amazing Yamaguchi
-Series Title	Street Fighter 6"Street Fighter" Series
+Series Title	Street Fighter 6 "Street Fighter" Series
 Character Name	Ryu
 Sculptor	Katsuhisa Yamaguchi 
 The maximum purchase quantity for this item is 2 per account/shipping address.
@@ -2981,7 +2982,7 @@ Release Date	Dec-2025	List Price	12,100 JPY
 Shop Code	FIGURE-175355	JAN code	4537807220677
 Brand	Kaiyodo
 Product Line	Revoltech Amazing Yamaguchi
-Series Title	Street Fighter 6"Street Fighter" Series
+Series Title	Street Fighter 6 "Street Fighter" Series
 Character Name	Chun LiJuri
 Sculptor	Shotaro Sakamoto 
 The maximum purchase quantity for this item is 2 per account/shipping address.
@@ -3007,7 +3008,7 @@ Release Date	Jan-2026	List Price	11,000 JPY
 Shop Code	FIGURE-184371	JAN code	4537807220844
 Brand	Kaiyodo
 Product Line	Revoltech Amazing Yamaguchi
-Series Title	Suicide Squad ISEKAISuicide SquadDC Comics
+Series Title	Suicide Squad ISEKAI Suicide Squad DC Comics
 Character Name	Harley Quinn(Harleen Frances Quinzel)
 Sculptor	Katsuhisa Yamaguchi 
 The maximum purchase quantity for this item is 2 per account/shipping address.
@@ -3061,8 +3062,9 @@ Release Date	Dec-2026	List Price	8,800 JPY
 Shop Code	FIGURE-199604	JAN code	4537807221209
 Brand	Kaiyodo
 Product Line	Revoltech Amazing Yamaguchi
-Series Title	NINJA GAIDENNinja Gaiden
+Series Title	NINJA GAIDEN Ninja Gaiden
 Character Name	Ryu Hayabusa
+Sculptor    UNKNOWN
 The maximum purchase quantity for this item is 2 per account/shipping address.
 Specifications	Size: Approx. H170mm
 Material: PVC, ABS, POK, POM
@@ -3087,7 +3089,7 @@ Release Date	Feb-2027	List Price	12,100 JPY
 Shop Code	FIGURE-199680	JAN code	4537807221148
 Brand	Kaiyodo
 Product Line	Revoltech Amazing Yamaguchi
-Series Title	Metal Gear Solid 3 Snake Eater"Metal Gear Solid" Series
+Series Title	Metal Gear Solid 3 Snake Eater" Metal Gear Solid" Series
 Character Name	Naked Snake(Snake/Big Boss)
 Sculptor	Katsuhisa Yamaguchi 
 The maximum purchase quantity for this item is 2 per account/shipping address.
