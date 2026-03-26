@@ -24,12 +24,8 @@ function extractPostData(post) {      //This is just some important data points.
         id: data.id,                    
         title: data.title || '',
         author: data.author || '',
-       // subreddit: data.subreddit || '',            //Dont think I need this since its obviously the Amazing Yamaguchi one
-        flair: data.link_flair_text || 'No Flair',
-        //score: data.score || 0,                 //the Score... ai made redundant data
-        //upvotes: data.ups || 0,               // Upvotes do not matter
-        //upvote_ratio: data.upvote_ratio || 0, //upvotes do not matter part 2
-       // num_comments: data.num_comments || 0, //comments although helpful for people it doesnt help for data
+       // subreddit: data.subreddit || '',            //Dont think I need this since its obviously the Amazing Yamaguchi one but idk maybe if i change it later
+        flair: data.link_flair_text || 'No Flair',          //Okay for this i think its fine that its here since ill get raw randomized recent data from time to time
         created_utc: data.created_utc || 0,     //although im iffy on if the post data matters i guess its fine for others to use maybe
         created_date: data.created_utc ? new Date(data.created_utc * 1000).toISOString() : '',
         selftext: (data.selftext || '').replace(/\n/g, ' ').substring(0, 500), // Limit length for CSV //Oh it lessen the burden on CSV
@@ -119,11 +115,8 @@ async function scrapeQualityIssues() {
             { id: 'title', title: 'Title' },
             { id: 'author', title: 'Author' },
             // { id: 'subreddit', title: 'Subreddit' },
-            { id: 'flair', title: 'Flair' },
-           // { id: 'score', title: 'Score' },
-           // { id: 'upvotes', title: 'Upvotes' },
-           // { id: 'upvote_ratio', title: 'Upvote Ratio' },
-            // { id: 'num_comments', title: 'Comments' },
+            { id: 'flair', title: 'Flair' },        
+          
             { id: 'created_date', title: 'Created Date' },
             { id: 'selftext', title: 'Text (Preview)' },
             { id: 'permalink', title: 'Permalink' },
