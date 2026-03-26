@@ -1,3 +1,7 @@
+
+// flair file to use to find information ONLY for AY will be: https://www.reddit.com/r/AmazingYamaguchi/search.json?q=flair_name:%22Quality%20Issues%22&restrict_sr=1&limit=100&sort=new
+
+
 const fs = require('fs');
 const path = require('path');
 const createCsvWriter = require('csv-writer').createObjectCsvWriter;
