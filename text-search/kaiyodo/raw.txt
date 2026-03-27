@@ -3138,3 +3138,5 @@ Display stand x1
 Details	Sculptor: Yu Shiying
 Director: Katsuhisa Yamaguchi
 Copyright	CAPCOM
+-
+# There is definately a bunch missing. Although there is 100% Monster Hunter and Old Revoltech figures that are missing I would like to have a master list of kaiyodo stuff
