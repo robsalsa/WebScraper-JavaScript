@@ -49,18 +49,18 @@ Okay here let me breakdown what this does:
         * Data-Dresser.js
             This is simialar to the name-finding.js script but instead of just tying posts to their catalog information it now "Dresses Up" the data for easier viewing. 
             Important variables: 
-                mode,               //Fix (Looking for a Fix), Data (Looking to help. This one is the one is perfect for what were doing.)
-                figure_name,
-                brand,
-                product_line,
-                series_title,
-                sculptor,           // this might also be a bit irrelevant but idk
-                scale,              // currently all are 1/12
-                materials,
-                seller,             // this is a bit irrelevant and forced to be checked with amiami catalog
-                age,                // how old the figure is but i guess this is also unimportant
-                authenticity,       //hard to check live but according to amiami they are always real
-                issues,                         // Broken, Loose, Stiff, Other (broad issue)
+                mode               //Fix (Looking for a Fix), Data (Looking to help. This one is the one is perfect for what were doing.)
+                figure_name
+                brand
+                product_line
+                series_title
+                sculptor           // this might also be a bit irrelevant but idk
+                scale             // currently all are 1/12
+                materials
+                seller           // this is a bit irrelevant and forced to be checked with amiami catalog
+                age                // how old the figure is but i guess this is also unimportant
+                authenticity      //hard to check live but according to amiami they are always real
+                issues                         // Broken, Loose, Stiff, Other (broad issue)
                 issue_description   
 
             
