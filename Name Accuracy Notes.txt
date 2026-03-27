@@ -63,20 +63,25 @@ Unknown (Not in Database) → 14.3% (7 / 49)
 Missed Name → 6.1% (3 / 49)
 Inaccurate Name → 4.1% (2 / 49)
 Irrelevant → 6.1% (3 / 49)
-Post in Post → 2.0% (1 / 49)
+Cross-posting → 2.0% (1 / 49)
 
 -----------------------------------------------------
-Actual Percentages:
+Cleaned-Up Percentages:
 
-Correct/Expected (Correct + Media + Unknown) -> 81.7%
-Missed Name → 6.1% (3 / 49)
-Inaccurate Name → 4.1% (2 / 49)
+Correct/Expected (Correct + Media Only + Unknown in database + Missed Name + Inaccurate Name + Cross-Posting) -> 93.9%
 Irrelevant → 6.1% (3 / 49)
-Post in Post → 2.0% (1 / 49)
 
+To alter these percentages to at least 90%-95% accuracy with a 10%-5% inaccuracy rate, you must manually check Media Only posts (image, gif, or video), Text-Only post, or Irrelevant posts.
+In other words actually checkout the data to correct errors.
 
+-----------------------------------------------------
+Actual Percentages To Be Used: 
 
+Correct/Fixed (Correct + Unknown + Missed Name + Inaccurate Name) = 63.3%
+Unused Data (Media Only + Irrelevant + Cross-posting) = 36.7% 
 
+-----------------------------------------------------
+Note that this is for 50 posts and ONLY using Kaiyodo (figure catalog & subreddit) as the test data.
 
 
 
