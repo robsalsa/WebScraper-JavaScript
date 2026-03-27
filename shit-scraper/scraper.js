@@ -2,15 +2,43 @@ const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 const fs = require('fs');
 const path = require('path');
 
-const INPUT_FILE = path.join(__dirname, '..', 'text-search', 'kaiyodo', 'raw.txt');
-const INPUT_FILE2 = path.join(__dirname, '..', 'text-search', 'sexyice2019', 'raw.txt');
-const INPUT_FILE3 = path.join(__dirname, '..', 'text-search', 'mafex', 'raw.txt');
-
-const OUTPUT_FILE = 'out_file/kaiyodo/kaiyodo_AY.csv';      //kaiyodo file
-const OUTPUT_FILE_2 ='out_file/sexyice/sexyice.csv';    //sexyice file
-const OUTPUT_FILE_3 = 'out_file/mafex/mafex.csv'        //mafex file
-
+const TEXT_SEARCH_DIR = path.join(__dirname, '..', 'text-search');
+const OUTPUT_BASE_DIR = path.join(__dirname, 'out_file');
 const JPY_TO_USD = 0.0069; // Conversion rate from JYP to USD (Date for this conversion: 3/25/2026)
+
+
+function discoverFilePairs() {
+    const filePairs = [];
+    
+    if (!fs.existsSync(TEXT_SEARCH_DIR)) {
+        console.log('*!* text-search directory not found *!*');
+        return filePairs;
+    }
+
+    const subdirs = fs.readdirSync(TEXT_SEARCH_DIR, { withFileTypes: true })
+        .filter(dirent => dirent.isDirectory())
+        .map(dirent => dirent.name);
+
+    console.log(`Found ${subdirs.length} subdirectories in text-search/`);
+
+    subdirs.forEach(subdir => {
+        const inputFile = path.join(TEXT_SEARCH_DIR, subdir, 'raw.txt');
+        
+        if (fs.existsSync(inputFile)) {
+            const outputFile = path.join(OUTPUT_BASE_DIR, subdir, `${subdir}.csv`);
+            filePairs.push({ 
+                input: inputFile, 
+                output: outputFile, 
+                name: subdir 
+            });
+            console.log(`  ✓ Found: ${subdir}/raw.txt`);
+        } else {
+            console.log(`  - Skipped: ${subdir}/ (no raw.txt found)`);
+        }
+    });
+
+    return filePairs;
+}
 
 
 function readTextFile(filePath) {
@@ -154,8 +182,8 @@ async function saveToCSV(products, outputFile) {
     console.log(`Total entries written: ${products.length}\n`);
 }
 
-async function processFile(inputFile, outputFile) {
-    // console.log(`\n=== Processing: ${inputFile} ===`);
+async function processFile(inputFile, outputFile, sourceName) {
+    console.log(`\nParsing: ${sourceName}`);
     
     if (!fs.existsSync(inputFile)) {
         console.log(`*!* File not found, skipping: ${inputFile} *!*`);
@@ -168,8 +196,6 @@ async function processFile(inputFile, outputFile) {
         console.log('*!* File is empty or could not be read, skipping. *!*');
         return;
     }
-
-    console.log('File loaded');
     
     const normalizedContent = normalizeContent(content);
     const products = parseProducts(normalizedContent);
@@ -179,28 +205,26 @@ async function processFile(inputFile, outputFile) {
         return;
     }
 
-    // console.log(`Found ${products.length} entries`);
     await saveToCSV(products, outputFile);
 }
 
 
 (async () => {
-    try {
-        // Define all input/output file pairs
-        const filePairs = [
-            { input: INPUT_FILE, output: OUTPUT_FILE },
-            { input: INPUT_FILE2, output: OUTPUT_FILE_2 },
-            {input: INPUT_FILE3, output:OUTPUT_FILE_3}
-        ];
+    try {        
+        // Automatically discover all text files to process
+        const filePairs = discoverFilePairs();
 
-        
-        // Process each file pair
-        for (const pair of filePairs) {
-            await processFile(pair.input, pair.output);
+        if (filePairs.length === 0) {
+            console.log('\n*!* No raw.txt files found to process *!*');
+            return;
         }
 
-        console.log('\n Done!');
-
+        console.log(`\nFound ${filePairs.length} file(s)\n`);
+        
+        // Process each discovered file
+        for (const pair of filePairs) {
+            await processFile(pair.input, pair.output, pair.name);
+        }
     } catch (error) {
         console.error('\n❌ Error:', error.message);
         process.exit(1);
