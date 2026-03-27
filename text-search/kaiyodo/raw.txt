@@ -2983,7 +2983,7 @@ Shop Code	FIGURE-175355	JAN code	4537807220677
 Brand	Kaiyodo
 Product Line	Revoltech Amazing Yamaguchi
 Series Title	Street Fighter 6 "Street Fighter" Series
-Character Name	Chun LiJuri
+Character Name	Juri
 Sculptor	Shotaro Sakamoto 
 The maximum purchase quantity for this item is 2 per account/shipping address.
 Specifications	Size: Approx. H160mm
@@ -2993,7 +2993,7 @@ Material: PVC, ABS, POM
 Main figure
 Optional hand part x6
 Optional face part x3
-Chun Li's K.O. face x1
+Juri's K.O. face x1
 Technique effect part x2
 Phone x1
 Display stand x1
@@ -3113,3 +3113,30 @@ Display stand x1
 *The number (type) of optional parts does not include the pre-attached (standard) parts.
 Details	Sculptor: Katsuhisa Yamaguchi
 Copyright	Konami Digital Entertainment
+-
+FIGURE-174173
+About this item
+Release Date	Sep-2025	List Price	12,100 JPY
+Shop Code	FIGURE-174173	JAN code	4537807220653
+Brand	Kaiyodo
+Product Line	Revoltech
+Series Title	"Street Fighter" Series
+Character Name	Chun Li
+Sculptor	Yu Shiying 
+The maximum purchase quantity for this item is 2 per account/shipping address.
+Specifications	Size: Approx. H160mm
+Material: PVC, ABS, POM
+
+[Set Contents]
+Main figure
+Optional hand part x7
+Optional face part x3
+Juri K.O. face x1
+Hyakuretsukyaku effect part x1
+Changing part for Chinese dress x2
+Display stand x1
+Details	Sculptor: Yu Shiying
+Director: Katsuhisa Yamaguchi
+Copyright	CAPCOM
+-
+# There is definately a bunch missing. Although there is 100% Monster Hunter and Old Revoltech figures that are missing I would like to have a master list of kaiyodo stuff

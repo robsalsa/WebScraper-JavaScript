@@ -1,0 +1,94 @@
+Written: 3/26/2026
+
+Entries: 	Parse Issue	Character Name (corrections)
+
+002		Missed Name	Monster Hunter Zinogre armor
+003		Correct		Correct
+004		Correct		Correct
+005		Correct		Correct	
+006		post in post	Harley Quinn (Harleen Frances Quinzel)
+007		Correct		Correct
+008		just image	Batman Beyond
+009		Correct 	Correct
+010		just image	Great Mazinger
+011		Correct		Correct			Video
+012		just image	Juri	(not in database)
+013		Correct		Correct
+014		just image 	Spider-Man 2.0	(not in database)
+015		Missed Name	Eren Yeager
+016		just image 	Unknown	(special figure)
+017		correct 	correct			Accessories
+018		correct		correct
+019		just image	juri (not in database)
+020		just image	Monster Hunter (red)	
+021		correct		correct 	accessories
+022		correct		correct	
+023		correct/unknown error	two figs mentioned (Batman Beyond and Saitama (this is not wrong just unforseen))
+024		correct		correct		Irrelevant
+025		correct		correct
+026		unknown		Juri	(not in database)
+027		just image	Batman Beyond
+028		correct		correct
+029		unknown		juri	(not in database)
+030		missed name	Spider-Man 2.0
+031		unknown		Chun Li	(not in database)
+032		correct		correct
+033		unknown		juri	(not in database)
+034		correct		correct
+035		unknown		chun li	(not in database)
+036		correct		correct
+037		inaccurate name	 Deadpool (missed 2.5)
+038		inaccurate name	 Arkham knight (missed 1.5)
+039		correct		correct
+040		irrelevant	irrelevant
+041		just image	Female Titan
+042		irrelevant	irrelevant
+043		just image/unknown	chun li	(not in database)
+044		just video/unknown 	Shigaraki Tomura	(not in database)
+045		irrelevant	irrelevant
+046		just image/unknown	Superman (black)	(not in database)
+047		correct		correct
+048		correct		correct
+049		correct 	correct
+050		just image	Genos
+
+
+
+
+Percentages: 
+
+Correct → 38.8% (19 / 49)
+Image / Video Only → 28.6% (14 / 49)
+Unknown (Not in Database) → 14.3% (7 / 49)
+Missed Name → 6.1% (3 / 49)
+Inaccurate Name → 4.1% (2 / 49)
+Irrelevant → 6.1% (3 / 49)
+Cross-posting → 2.0% (1 / 49)
+
+-----------------------------------------------------
+Cleaned-Up Percentages:
+
+Correct/Expected (Correct + Media Only + Unknown in database + Missed Name + Inaccurate Name + Cross-Posting) -> 93.9%
+Irrelevant → 6.1% (3 / 49)
+
+To alter these percentages to at least 90%-95% accuracy with a 10%-5% inaccuracy rate, you must manually check Media Only posts (image, gif, or video), Text-Only post, or Irrelevant posts.
+In other words actually checkout the data to correct errors.
+
+-----------------------------------------------------
+Actual Percentages To Be Used: 
+
+Correct/Fixed (Correct + Unknown + Missed Name + Inaccurate Name) = 63.3%
+Unused Data (Media Only + Irrelevant + Cross-posting) = 36.7% 
+
+-----------------------------------------------------
+Note that this is for 50 posts and ONLY using Kaiyodo (figure catalog & subreddit) as the test data.
+
+
+
+
+
+
+
+
+
+
