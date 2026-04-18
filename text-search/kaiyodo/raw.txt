@@ -3201,7 +3201,7 @@ Shop Code	FIGURE-200616	JAN code	4537807221186
 Brand	Kaiyodo
 Product Line	Revoltech Amazing Yamaguchi
 Series Title	DC Comics
-Character Name	Batman(Bruce Wayne)
+Character Name	Batman (Bruce Wayne) Hellbat 
 Sculptor	Katsuhisa Yamaguchi 
 The maximum purchase quantity for this item is 2 per account/shipping address.
 Specifications	Size: Approx. H190mm
@@ -3223,7 +3223,7 @@ Shop Code	FIGURE-201136	JAN code	4537807221308
 Brand	Kaiyodo
 Product Line	Revoltech Amazing Yamaguchi
 Series Title	Batman Beyond "Batman" Series DC Comics
-Character Name	Batman(Terry McGinnis)
+Character Name	Batman (Terry McGinnis) Classic ver.
 Sculptor	Yu Shiying 
 The maximum purchase quantity for this item is 2 per account/shipping address.
 Specifications	Size: Approx. H170mm
