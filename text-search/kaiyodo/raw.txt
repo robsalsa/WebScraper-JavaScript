@@ -85,7 +85,8 @@ From his appearance you can perceive his strong leadership.-By dividing the shou
 You can recreate the expressions of the always cool Captain.-5 alternative hands are also included to act out all kinds of scenes.
 Copyright	2017 Marvel
 -
-FIGURE-043036About this item
+FIGURE-043036
+About this item
 Release Date	late Jan-2019	List Price	7,678 JPY
 Shop Code	FIGURE-043036	JAN code	4537807013125
 Brand	Kaiyodo
@@ -128,7 +129,8 @@ An alternate head part without the mask is included and complete with the scars 
 Being capable of various situations gives it lots of play value.
 Copyright	JUSTICE LEAGUE and all related characters and elements (C)＆TM DC Comics. (s19)
 -
-FIGURE-030370 About this item
+FIGURE-030370
+About this item
 Release Date	late Sep-2017	List Price	6,372 JPY
 Shop Code	FIGURE-030370-D001	JAN code	4537807013040
 Brand	Kaiyodo
@@ -173,7 +175,7 @@ Brand	Kaiyodo
 Product Line	Revoltech Amazing Yamaguchi
 Series Title	DEADPOOL Marvel Comics
 Character Name	Deadpool No.001
-Sculptor    UNKNOWN
+Sculptor	UNKNOWN
 The maximum purchase quantity for this item is 3 per account/shipping address.
 Specifications	Size: Approx. H160mm
 Material: Main Part: PVC, ABS / Joint: Nylon, POM
@@ -194,7 +196,8 @@ Joints Used: 17
 Details	Sculptor: Katsuhisa Yamaguchi Yamaguchi Katsuhisa
 Copyright	2020 Marvel
 -
-FIGURE-037418About this item
+FIGURE-037418
+About this item
 Release Date	late Jun-2018	List Price	6,380 JPY
 Shop Code	FIGURE-037418	JAN code	4537807013088
 Brand	Kaiyodo
@@ -230,7 +233,8 @@ Details	Sculptor: Yamaguchi Katsuhisa
 -To better represent Deadpool's rich facial expressions, particular even among American comic characters, an alternative head and alternative eyes are also included. The alternative head is a surprised face where he has his mouth wide open in surprise, so much that even his mask looks deformed. The alternative eyes include glaring eyes, surprised eyes, comical line eyes and heart shaped eyes, for plenty of different expressions. You can choose to change one eye at a time.
 Copyright	2018 Marvel
 -
-FIGURE-026819About this item
+FIGURE-026819
+About this item
 Release Date	late Apr-2017	List Price	8,580 JPY
 Shop Code	FIGURE-026819	JAN code	4537807013026
 Brand	Kaiyodo
@@ -280,7 +284,8 @@ There are 4 holes on his back, making it possible to attach the Symbiote there t
 Thanks to the Revoltech common joints, it's possible to obtain lots of variations when combining Venom with the Symbiote.
 Copyright	2018 Marvel
 -
-FIGURE-151762About this item
+FIGURE-151762
+About this item
 Release Date	Oct-2023	List Price	11,000 JPY
 Shop Code	FIGURE-151762	JAN code	4537807220080
 Brand	Kaiyodo
@@ -305,7 +310,8 @@ Display stand x1
 Details	Sculptor: Katsuhisa Yamaguchi
 Copyright	THE FLASH and all related characters and elements (c)＆ TM DC (s23)
 -
-FIGURE-154013About this item
+FIGURE-154013
+About this item
 Release Date	Nov-2023	List Price	13,200 JPY
 Shop Code	FIGURE-154013	JAN code	4537807220103
 Brand	Kaiyodo
@@ -967,8 +973,8 @@ Shop Code	FIGURE-135488	JAN code	4537807013354
 Brand	Kaiyodo 
 Product Line	Revoltech Amazing Yamaguchi
 Series Title	Superman DC Comics
+Character Name	Superman
 Sculptor	Katsuhisa Yamaguchi 
-Character Name    Superman
 The maximum purchase quantity for this item is 3 per account/shipping address.
 Specifications	Size: Approx. H175mm
 Material: Main Part: PVC, ABS / Joint: ABS, POM
@@ -1012,7 +1018,7 @@ Copyright	2022 MARVEL
 FIGURE-165987
 About this item
 Release Date	Oct-2024	List Price	12,100 JPY
-Shop Code	FIGURE-165987	JAN code	4537i20424
+Shop Code	FIGURE-165987	JAN code	4537807220424
 Brand	Kaiyodo
 Product Line	Revoltech Amazing Yamaguchi
 Series Title	My Hero Academia (Boku no Hero Academia)
@@ -1331,8 +1337,6 @@ Material: PVC, ABS / Joint: ABS, POM
 Details	Sculptor: Katsuhisa Yamaguchi
 Planning/Production: Kaiyoudou
 Copyright	堀越耕平/集英社・僕のヒーローアカデミア製作委員会
--
-
 -
 FIGURE-162355
 About this item
@@ -2006,8 +2010,8 @@ Shop Code	FIGURE-179676	JAN code	4537807220776
 Brand	Kaiyodo
 Product Line	Revoltech Amazing Yamaguchi
 Series Title	Mazinger Z "Mazinger" Series
+Character Name	Mazinger Z
 Sculptor	Katsuhisa Yamaguchi 
-Character Name    Mazinger Z
 The maximum purchase quantity for this item is 2 per account/shipping address.
 Specifications	Size: Approx. H150mm
 Material: PVC, ABS, POM, Iron
@@ -2410,8 +2414,8 @@ Shop Code	FIGURE-195516	JAN code	4537807221117
 Brand	Kaiyodo
 Product Line	Revoltech Amazing Yamaguchi
 Series Title	Getter Robo Armageddon "Getter Robo" Series
+Character Name	Getter 1 OVA Ver.
 Sculptor	Katsuhisa Yamaguchi 
-Character Name    Getter 1 OVA Ver.
 The maximum purchase quantity for this item is 2 per account/shipping address.
 Specifications	Size: Approx. H160mm
 Material: PVC, ABS, POM, Iron, Magnet
@@ -2501,8 +2505,8 @@ Shop Code	FIGURE-195515	JAN code	4537807221124
 Brand	Kaiyodo
 Product Line	Revoltech Amazing Yamaguchi
 Series Title	Getter Robo Armageddon"Getter Robo" Series
+Character Name	Getter OVA Black Ver.
 Sculptor	Katsuhisa Yamaguchi 
-Character Name    Getter OVA Black Ver.
 The maximum purchase quantity for this item is 2 per account/shipping address.
 Specifications	Size: Approx. H160mm
 Material: PVC, ABS, POM, Iron, Magnet
@@ -2723,8 +2727,8 @@ Shop Code	FIGURE-187266	JAN code	4537807220974
 Brand	Kaiyodo
 Product Line	Revoltech Amazing Yamaguchi
 Series Title	"Rebuild of Evangelion" Series"Evangelion" Series
+Character Name	EVA-01
 Sculptor	Shotaro Sakamoto 
-Character Name    EVA-01
 The maximum purchase quantity for this item is 2 per account/shipping address.
 Specifications	Size: Approx. H170mm
 Material: PVC, ABS, POM
@@ -2752,8 +2756,8 @@ Shop Code	FIGURE-183428	JAN code	4537807220820
 Brand	Kaiyodo
 Product Line	Revoltech Amazing Yamaguchi
 Series Title	Great Mazinger "Mazinger" Series
+Character Name	Great Mazinger
 Sculptor	Katsuhisa Yamaguchi 
-Character Name     Great Mazinger
 The maximum purchase quantity for this item is 2 per account/shipping address.
 Specifications	Size: Approx. H160mm
 Material: PVC, ABS, POM, Iron
@@ -3143,39 +3147,33 @@ Copyright	CAPCOM
 -
 # There is definately a bunch missing. Although there is 100% Monster Hunter and Old Revoltech figures that are missing I would like to have a master list of kaiyodo stuff
 
-- 
 FIGURE-201137
 About this item
-Release DateJan-2027List Price11,000 JPY
-Shop Code FIGURE-201137JAN code4537807221247
-BrandKaiyodo
-Product LineRevoltechAmazing Yamaguchi
-Series TitleOne-Punch Man
-Character NameBoros
-SculptorShotaro Sakamoto 
+Release Date	Jan-2027	List Price	11,000 JPY
+Shop Code	FIGURE-201137	JAN code	4537807221247
+Brand	Kaiyodo
+Product Line	Revoltech Amazing Yamaguchi
+Series Title	One-Punch Man
+Character Name	Boros
+Sculptor	Shotaro Sakamoto 
 The maximum purchase quantity for this item is 2 per account/shipping address.
-Specifications
-Size: Approx. 185mm
+Specifications	Size: Approx. 185mm
 Material: PVC, ABS, POM, POK
-Details
-Sculptor: Shotaro Sakamoto
+Details	Sculptor: Shotaro Sakamoto
 Sculpt Supervisor: Katsuhisa Yamaguchi
-Copyright
-ONE・村田雄介/集英社・ヒーロー協会本部
-
-- 
+Copyright	ONE・村田雄介/集英社・ヒーロー協会本部
+-
 FIGURE-200615
 About this item
-Release Date Mar-2027 List Price 12,100 JPY
-Shop Code FIGURE-200615 JAN code 4537807221193
-Brand Kaiyodo
-Product Line Revoltech Amazing Yamaguchi
-Series Title Metal Gear Solid 3 Snake Eater "Metal Gear Solid" Series
-Character Name The Boss
-Sculptor Yu Shiying 
+Release Date	Mar-2027	List Price	12,100 JPY
+Shop Code	FIGURE-200615	JAN code	4537807221193
+Brand	Kaiyodo
+Product Line	Revoltech Amazing Yamaguchi
+Series Title	Metal Gear Solid 3 Snake Eater "Metal Gear Solid" Series
+Character Name	The Boss
+Sculptor	Yu Shiying 
 The maximum purchase quantity for this item is 2 per account/shipping address.
-Specifications
-Size: Approx. H155mm
+Specifications	Size: Approx. H155mm
 Material: PVC, ABS, POK, POM
 
 [Set Contents]
@@ -3192,60 +3190,21 @@ Rocket motor for propulsion x1
 Display stand x1
 
 *The number (type) of optional parts does not include the pre-attached (default) parts.
-Details
-Sculptor: Yu Shiying
+Details	Sculptor: Yu Shiying
 Director: Katsuhisa Yamaguchi
-Copyright
-Konami Digital Entertainment
-
-- 
-FIGURE-199680
-About this item
-Release DateFeb-2027List Price12,100 JPY
-Shop CodeFIGURE-199680JAN code4537807221148
-BrandKaiyodo
-Product LineRevoltechAmazing Yamaguchi
-Series TitleMetal Gear Solid 3 Snake Eater"Metal Gear Solid" Series
-Character Name Naked Snake
-SculptorKatsuhisa Yamaguchi 
-The maximum purchase quantity for this item is 2 per account/shipping address.
-Specifications
-Size: Approx. H160mm
-Material: PVC, ABS, POK, POM, Paper
-
-[Set Contents]
-Main figure
-Optional hand part x8
-Knife x1
-Knife sheath x1
-Handgun x1
-Handgun (w/suppressor) x1
-Handgun holster x1
-Binoculars x1
-Rifle x1
-Kerotan x1
-"!" Mark x1
-Cardboard box x1
-Display stand x1
-*The number (type) of optional parts does not include the pre-attached (standard) parts.
-Details
-Sculptor: Katsuhisa Yamaguchi
-Copyright
-Konami Digital Entertainment
-
-- 
+Copyright	Konami Digital Entertainment
+-
 FIGURE-200616
 About this item
-Release DateJan-2027List Price13,200 JPY
-Shop CodeFIGURE-200616JAN code4537807221186
-BrandKaiyodo
-Product LineRevoltechAmazing Yamaguchi
-Series TitleDC Comics
-Character NameBatman(Bruce Wayne)
-SculptorKatsuhisa Yamaguchi 
+Release Date	Jan-2027	List Price	13,200 JPY
+Shop Code	FIGURE-200616	JAN code	4537807221186
+Brand	Kaiyodo
+Product Line	Revoltech Amazing Yamaguchi
+Series Title	DC Comics
+Character Name	Batman(Bruce Wayne)
+Sculptor	Katsuhisa Yamaguchi 
 The maximum purchase quantity for this item is 2 per account/shipping address.
-Specifications
-Size: Approx. H190mm
+Specifications	Size: Approx. H190mm
 Material: PVC, ABS, POM, POK
 
 [Set Contents]
@@ -3254,24 +3213,20 @@ Optional hand part x8
 Energy effect x4
 Display stand x1
 *The number (type) of optional parts does not include the pre-attached (standard) parts.
-Details
-Sculptor: Katsuhisa Yamaguchi
-Copyright
-BATMAN and all related characters and elements ＆ DC. WB SHIELD： ＆ WBEI.(s26)
-
+Details	Sculptor: Katsuhisa Yamaguchi
+Copyright	BATMAN and all related characters and elements ＆ DC. WB SHIELD： ＆ WBEI.(s26)
 -
 FIGURE-201136
 About this item
-Release DateFeb-2027List Price9,900 JPY
-Shop CodeFIGURE-201136JAN code4537807221308
-BrandKaiyodo
-Product LineRevoltechAmazing Yamaguchi
-Series TitleBatman Beyond"Batman" SeriesDC Comics
-Character NameBatman(Terry McGinnis)
-Sculptor Yu Shiying 
+Release Date	Feb-2027	List Price	9,900 JPY
+Shop Code	FIGURE-201136	JAN code	4537807221308
+Brand	Kaiyodo
+Product Line	Revoltech Amazing Yamaguchi
+Series Title	Batman Beyond "Batman" Series DC Comics
+Character Name	Batman(Terry McGinnis)
+Sculptor	Yu Shiying 
 The maximum purchase quantity for this item is 2 per account/shipping address.
-Specifications
-Size: Approx. H170mm
+Specifications	Size: Approx. H170mm
 Material: PVC, ABS, POK
 
 [Set Contents]
@@ -3283,10 +3238,8 @@ Flame effect part x2
 Display stand x1
 
 *The number (type) of optional parts does not include the pre-attached (standard) parts.
-Details
-Sculptor: Yu Shiying
+Details	Sculptor: Yu Shiying
 Director: Katsuhisa Yamaguchi
-Copyright
-BATMAN and all related characters and elements ＆ DC.(s26)
+Copyright	BATMAN and all related characters and elements ＆ DC.(s26)
 -
 # ^^^ Updated 4/18/2026 ^^^
