@@ -3143,10 +3143,11 @@ Copyright	CAPCOM
 -
 # There is definately a bunch missing. Although there is 100% Monster Hunter and Old Revoltech figures that are missing I would like to have a master list of kaiyodo stuff
 
-- FIGURE-201137
+- 
+FIGURE-201137
 About this item
 Release DateJan-2027List Price11,000 JPY
-Shop CodeFIGURE-201137JAN code4537807221247
+Shop Code FIGURE-201137JAN code4537807221247
 BrandKaiyodo
 Product LineRevoltechAmazing Yamaguchi
 Series TitleOne-Punch Man
@@ -3162,15 +3163,16 @@ Sculpt Supervisor: Katsuhisa Yamaguchi
 Copyright
 ONE・村田雄介/集英社・ヒーロー協会本部
 
-- FIGURE-200615
+- 
+FIGURE-200615
 About this item
-Release DateMar-2027List Price12,100 JPY
-Shop CodeFIGURE-200615JAN code4537807221193
-BrandKaiyodo
-Product Line RevoltechAmazing Yamaguchi
+Release Date Mar-2027 List Price 12,100 JPY
+Shop Code FIGURE-200615 JAN code 4537807221193
+Brand Kaiyodo
+Product Line Revoltech Amazing Yamaguchi
 Series Title Metal Gear Solid 3 Snake Eater "Metal Gear Solid" Series
 Character Name The Boss
-SculptorYu Shiying 
+Sculptor Yu Shiying 
 The maximum purchase quantity for this item is 2 per account/shipping address.
 Specifications
 Size: Approx. H155mm
@@ -3196,7 +3198,8 @@ Director: Katsuhisa Yamaguchi
 Copyright
 Konami Digital Entertainment
 
-- FIGURE-199680
+- 
+FIGURE-199680
 About this item
 Release DateFeb-2027List Price12,100 JPY
 Shop CodeFIGURE-199680JAN code4537807221148
@@ -3230,7 +3233,8 @@ Sculptor: Katsuhisa Yamaguchi
 Copyright
 Konami Digital Entertainment
 
-- FIGURE-200616
+- 
+FIGURE-200616
 About this item
 Release DateJan-2027List Price13,200 JPY
 Shop CodeFIGURE-200616JAN code4537807221186
@@ -3255,7 +3259,8 @@ Sculptor: Katsuhisa Yamaguchi
 Copyright
 BATMAN and all related characters and elements ＆ DC. WB SHIELD： ＆ WBEI.(s26)
 
--FIGURE-201136
+-
+FIGURE-201136
 About this item
 Release DateFeb-2027List Price9,900 JPY
 Shop CodeFIGURE-201136JAN code4537807221308
@@ -3263,7 +3268,7 @@ BrandKaiyodo
 Product LineRevoltechAmazing Yamaguchi
 Series TitleBatman Beyond"Batman" SeriesDC Comics
 Character NameBatman(Terry McGinnis)
-SculptorYu Shiying 
+Sculptor Yu Shiying 
 The maximum purchase quantity for this item is 2 per account/shipping address.
 Specifications
 Size: Approx. H170mm
