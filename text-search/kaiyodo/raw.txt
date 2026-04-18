@@ -1332,6 +1332,8 @@ Details	Sculptor: Katsuhisa Yamaguchi
 Planning/Production: Kaiyoudou
 Copyright	堀越耕平/集英社・僕のヒーローアカデミア製作委員会
 -
+
+-
 FIGURE-162355
 About this item
 Release Date	May-2024	List Price	10,450 JPY
@@ -1339,7 +1341,7 @@ Shop Code	FIGURE-162355	JAN code	4537807220318
 Brand	Kaiyodo
 Product Line	Revoltech Amazing Yamaguchi
 Series Title	Marvel Comics
-Character Name	Spider-Man(Peter Parker), Iron-Spider
+Character Name	Spider-Man(Peter Parker), Iron-Spider Black ver.
 Sculptor	Katsuhisa Yamaguchi 
 The maximum purchase quantity for this item is 3 per account/shipping address.
 Specifications	Pre-painted Complete Figure
@@ -3140,3 +3142,146 @@ Director: Katsuhisa Yamaguchi
 Copyright	CAPCOM
 -
 # There is definately a bunch missing. Although there is 100% Monster Hunter and Old Revoltech figures that are missing I would like to have a master list of kaiyodo stuff
+
+- FIGURE-201137
+About this item
+Release DateJan-2027List Price11,000 JPY
+Shop CodeFIGURE-201137JAN code4537807221247
+BrandKaiyodo
+Product LineRevoltechAmazing Yamaguchi
+Series TitleOne-Punch Man
+Character NameBoros
+SculptorShotaro Sakamoto 
+The maximum purchase quantity for this item is 2 per account/shipping address.
+Specifications
+Size: Approx. 185mm
+Material: PVC, ABS, POM, POK
+Details
+Sculptor: Shotaro Sakamoto
+Sculpt Supervisor: Katsuhisa Yamaguchi
+Copyright
+ONE・村田雄介/集英社・ヒーロー協会本部
+
+- FIGURE-200615
+About this item
+Release DateMar-2027List Price12,100 JPY
+Shop CodeFIGURE-200615JAN code4537807221193
+BrandKaiyodo
+Product LineRevoltechAmazing Yamaguchi
+Series TitleMetal Gear Solid 3 Snake Eater"Metal Gear Solid" Series
+Character NameThe Boss
+SculptorYu Shiying 
+The maximum purchase quantity for this item is 2 per account/shipping address.
+Specifications
+Size: Approx. H155mm
+Material: PVC, ABS, POK, POM
+
+[Set Contents]
+Main figure
+Optional hand part x6
+Small nuclear warhead x1
+Missile launcher x 1
+Knife sheath x1
+Knife x1
+Assault rifle (A) x1
+Assault rifle (B) x1
+Magazine x1
+Rocket motor for propulsion x1
+Display stand x1
+
+*The number (type) of optional parts does not include the pre-attached (default) parts.
+Details
+Sculptor: Yu Shiying
+Director: Katsuhisa Yamaguchi
+Copyright
+Konami Digital Entertainment
+
+- FIGURE-199680
+About this item
+Release DateFeb-2027List Price12,100 JPY
+Shop CodeFIGURE-199680JAN code4537807221148
+BrandKaiyodo
+Product LineRevoltechAmazing Yamaguchi
+Series TitleMetal Gear Solid 3 Snake Eater"Metal Gear Solid" Series
+Character NameNaked Snake(Snake/Big Boss)
+SculptorKatsuhisa Yamaguchi 
+The maximum purchase quantity for this item is 2 per account/shipping address.
+Specifications
+Size: Approx. H160mm
+Material: PVC, ABS, POK, POM, Paper
+
+[Set Contents]
+Main figure
+Optional hand part x8
+Knife x1
+Knife sheath x1
+Handgun x1
+Handgun (w/suppressor) x1
+Handgun holster x1
+Binoculars x1
+Rifle x1
+Kerotan x1
+"!" Mark x1
+Cardboard box x1
+Display stand x1
+*The number (type) of optional parts does not include the pre-attached (standard) parts.
+Details
+Sculptor: Katsuhisa Yamaguchi
+Copyright
+Konami Digital Entertainment
+
+- FIGURE-200616
+About this item
+Release DateJan-2027List Price13,200 JPY
+Shop CodeFIGURE-200616JAN code4537807221186
+BrandKaiyodo
+Product LineRevoltechAmazing Yamaguchi
+Series TitleDC Comics
+Character NameBatman(Bruce Wayne)
+SculptorKatsuhisa Yamaguchi 
+The maximum purchase quantity for this item is 2 per account/shipping address.
+Specifications
+Size: Approx. H190mm
+Material: PVC, ABS, POM, POK
+
+[Set Contents]
+Main figure
+Optional hand part x8
+Energy effect x4
+Display stand x1
+*The number (type) of optional parts does not include the pre-attached (standard) parts.
+Details
+Sculptor: Katsuhisa Yamaguchi
+Copyright
+BATMAN and all related characters and elements ＆ DC. WB SHIELD： ＆ WBEI.(s26)
+
+-FIGURE-201136
+About this item
+Release DateFeb-2027List Price9,900 JPY
+Shop CodeFIGURE-201136JAN code4537807221308
+BrandKaiyodo
+Product LineRevoltechAmazing Yamaguchi
+Series TitleBatman Beyond"Batman" SeriesDC Comics
+Character NameBatman(Terry McGinnis)
+SculptorYu Shiying 
+The maximum purchase quantity for this item is 2 per account/shipping address.
+Specifications
+Size: Approx. H170mm
+Material: PVC, ABS, POK
+
+[Set Contents]
+Main figure
+Optional hand part x8
+Optional face part x2
+Batarang x2
+Flame effect part x2
+Display stand x1
+
+*The number (type) of optional parts does not include the pre-attached (standard) parts.
+Details
+Sculptor: Yu Shiying
+Director: Katsuhisa Yamaguchi
+Copyright
+BATMAN and all related characters and elements ＆ DC.(s26)
+-
+# ^^^ Updated 4/18/2026 ^^^
