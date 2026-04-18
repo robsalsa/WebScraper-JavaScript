@@ -134,7 +134,7 @@ Shop Code	FIGURE-030370-D001	JAN code	4537807013040
 Brand	Kaiyodo
 Product Line	Revoltech Amazing Yamaguchi
 Series Title	Marvel Comics "X-MEN" Series
-Character Name	Wolverine(Logan/Weapon X)
+Character Name	Wolverine (Logan / Weapon X)
 Sculptor	Katsuhisa Yamaguchi 
 The maximum purchase quantity for this item is 1 per account/shipping address.
 Specifications	Size: Approx. L155mm
@@ -655,7 +655,7 @@ Shop Code	FIGURE-055059	JAN code	4537807013194
 Brand	Kaiyodo
 Product Line	Revoltech Amazing Yamaguchi
 Series Title	DC Comics
-Character Name	Wonder Woman(Diana)
+Character Name	Wonder Woman (Diana)
 Sculptor	Katsuhisa Yamaguchi 
 The maximum purchase quantity for this item is 3 per account/shipping address.
 Specifications	Size: Approx. H150mm
@@ -774,7 +774,7 @@ Shop Code	FIGURE-144768	JAN code	4537807013484
 Brand	Kaiyodo
 Product Line	Revoltech Amazing Yamaguchi
 Series Title	Tokyo Revengers
-Character Name	Manjiro Sano(Tokyo Manji Gang President/Mikey)
+Character Name	Manjiro Sano (Tokyo Manji Gang President / Mikey)
 Sculptor	Katsuhisa Yamaguchi 
 The maximum purchase quantity for this item is 3 per account/shipping address.
 Specifications	Pre-painted Complete Figure
@@ -964,9 +964,9 @@ FIGURE-135488
 About this item
 Release Date	Aug-2022	List Price	10,780 JPY
 Shop Code	FIGURE-135488	JAN code	4537807013354
-Brand	Kaiyodo
+Brand	Kaiyodo 
 Product Line	Revoltech Amazing Yamaguchi
-Series Title	SupermanDC Comics
+Series Title	Superman DC Comics
 Sculptor	Katsuhisa Yamaguchi 
 Character Name    Superman
 The maximum purchase quantity for this item is 3 per account/shipping address.
@@ -989,7 +989,7 @@ Shop Code	FIGURE-142376	JAN code	4537807013422
 Brand	Kaiyodo
 Product Line	Revoltech Amazing Yamaguchi
 Series Title	Marvel Comics
-Character Name	Black Panther(T'Challa)
+Character Name	Black Panther (T'Challa)
 Sculptor	Katsuhisa Yamaguchi 
 The maximum purchase quantity for this item is 3 per account/shipping address.
 Specifications	Size: Approx. H170mm
@@ -1012,7 +1012,7 @@ Copyright	2022 MARVEL
 FIGURE-165987
 About this item
 Release Date	Oct-2024	List Price	12,100 JPY
-Shop Code	FIGURE-165987	JAN code	4537807220424
+Shop Code	FIGURE-165987	JAN code	4537i20424
 Brand	Kaiyodo
 Product Line	Revoltech Amazing Yamaguchi
 Series Title	My Hero Academia (Boku no Hero Academia)
@@ -1080,7 +1080,7 @@ Shop Code	FIGURE-162189	JAN code	4537807220264
 Brand	Kaiyodo
 Product Line	Revoltech Amazing Yamaguchi
 Series Title	Marvel Comics
-Character Name	Winter Soldier(Bucky/James Buchanan Barnes)
+Character Name	Winter Soldier (Bucky / James Buchanan Barnes)
 Sculptor	Katsuhisa Yamaguchi 
 The maximum purchase quantity for this item is 3 per account/shipping address.
 Specifications	Pre-painted Complete Figure
@@ -1339,7 +1339,7 @@ Shop Code	FIGURE-162355	JAN code	4537807220318
 Brand	Kaiyodo
 Product Line	Revoltech Amazing Yamaguchi
 Series Title	Marvel Comics
-Character Name	Spider-Man(Peter Parker)
+Character Name	Spider-Man(Peter Parker), Iron-Spider
 Sculptor	Katsuhisa Yamaguchi 
 The maximum purchase quantity for this item is 3 per account/shipping address.
 Specifications	Pre-painted Complete Figure
@@ -1657,7 +1657,7 @@ Shop Code	FIGURE-160177	JAN code	4537807220271
 Brand	Kaiyodo
 Product Line	Revoltech Amazing Yamaguchi
 Series Title	Monster Hunter Rise"Monster Hunter" Series
-Character Name	Wirebug
+Character Name	Wirebug Lunagaron 
 Sculptor	Daichi Sugimoto, Shoutaro Sakamoto, Yu Shiying 
 The maximum purchase quantity for this item is 3 per account/shipping address.
 Specifications	Pre-painted Complete Figure
@@ -2529,7 +2529,7 @@ Shop Code	FIGURE-180255	JAN code	4537807220806
 Brand	Kaiyodo
 Product Line	Revoltech Amazing Yamaguchi
 Series Title	Street Fighter 6 "Street Fighter" Series
-Character Name	RyuLuke
+Character Name	Luke
 Sculptor	Katsuhisa Yamaguchi 
 The maximum purchase quantity for this item is 2 per account/shipping address.
 Specifications	Size: Approx. H160mm
